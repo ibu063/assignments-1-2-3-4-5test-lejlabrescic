@@ -9,9 +9,22 @@
 * console.log(inFrench("Nina")); // "Salut Nina!"
 */
 
-
-// TODO
-
+function sayHi(name, language) {
+    if (language === "English") {
+      return `Hi ${name}!`;
+    } else if (language === "Spanish") {
+      return `Hola ${name}!`;
+    } else if (language === "French") {
+      return `Salut ${name}!`;
+    } else {
+      return `Hi ${name}!`; 
+    }
+  }
+function hiIn(language) {
+    return function(name) {
+      return sayHi(name, language);
+    };
+  }
 
 
 

@@ -19,41 +19,6 @@
 
 // TODO
 
-// if opted for the tap function, you have the boilerplate code below:
-const tap = label => x => {
-  // TODO: The tap function should log the label with the value, then return the original value.
-};
-
-const pipe = (...fns) => x => fns.reduce((v, fn) => fn(v), x);
-
-// TODO finish the average function below:
-const average = arr => 
-  
-const process = pipe( 
-  
-);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // Below this comment any modification is prohibited. 

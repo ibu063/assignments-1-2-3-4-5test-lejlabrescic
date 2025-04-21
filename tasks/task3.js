@@ -15,27 +15,9 @@
 
 // TODO
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function extractNames(people) {
+    return people.map(person => person.name)
+}
 
 
 
